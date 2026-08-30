@@ -20,9 +20,9 @@ Markdown te permite organizar la información usando diferentes niveles de títu
 ## Archivos Multimedia y Descargas
 
 ### Enlace de descarga
-[Descargar Archivo Guía (PDF)](/archivo-ejemplo.pdf){target="_blank" download}
+[Nombre documento](/url-archivo){target="_blank" download}
 
-El archivo debe estar en la carpeta /public y con el nombre archivo-ejemplo.pdf
+El archivo debe estar en la carpeta /public y la url del archivo debe ser "/ + nombre archivo"
 
 ### Insertar una Imagen
 Puedes incrustar fotografías, diseños o capturas de pantalla de esta manera:
@@ -34,7 +34,7 @@ Foto de [martin bennie](https://unsplash.com/es/@martinbennie?utm_source=unsplas
 
 ---
 
-## Bloques de Código (Para Programadores)
+## Bloques de Código
 Si necesitas mostrar comandos de consola o líneas de código, se verán así:
 
 ```bash
