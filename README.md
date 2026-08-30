@@ -1,6 +1,6 @@
 # Plantilla Portafolio - Bootcamp Ciberseguridad
 
- Este es un sitio web estático optimizado para presentar tus proyectos, y casos de estudio.
+ Este es un sitio web optimizado para presentar tus proyectos, y caso de estudio.
 
  [Demo](https://wonderful-lebkuchen-5fec60.netlify.app/)
 
