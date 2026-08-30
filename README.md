@@ -1,14 +1,13 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
----
 
 # Plantilla Portafolio - Bootcamp Ciberseguridad
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
- Este es un sitio web optimizado para presentar tus proyectos, y caso de estudio de ciberseguridad.
+Este es un sitio web optimizado para presentar tus proyectos, y caso de estudio del bootcamp de ciberseguridad.
 
 
- [Demo del proyecto](https://wonderful-lebkuchen-5fec60.netlify.app/)
+[Demo del proyecto](https://wonderful-lebkuchen-5fec60.netlify.app/)
 
----
+<br>
 
 ## Stack Tecnológico
 
@@ -22,7 +21,7 @@ Este proyecto está construido con:
 * **@antfu/eslint-config**: Configuración estricta de ESLint para garantizar un código limpio y sin errores.
 * **Bun**: Entorno de ejecución y gestor de paquetes ultra rápido.
 
----
+<br>
 
 ## Cómo personalizar tu información
 
@@ -40,7 +39,7 @@ Asegúrate de tener instalado [Bun](https://bun.sh) en tu equipo, luego ejecuta 
 bun install
 ```
 
-## 3. Acceder al directorio del proyecto
+### 3. Acceder al directorio del proyecto
 
 
 ```bash
