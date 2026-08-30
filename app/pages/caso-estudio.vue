@@ -8,7 +8,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="container px-4 py-20 mx-auto max-w-[75ch] prose dark:prose-invert">
+  <main class="container px-4 py-20 mx-auto max-w-[75ch] prose dark:prose-invert">
     <ContentRenderer v-if="data" :value="data" />
-  </div>
+  </main>
 </template>

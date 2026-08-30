@@ -11,7 +11,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="py-20 px-4 container mx-auto flex flex-col flex-1 justify-center items-center h-full">
+  <main class="py-20 px-4 container mx-auto flex flex-col flex-1 justify-center items-center h-full">
     <h2 class="text-center text-3xl md:text-4xl md:max-w-xl font-semibold my-4">
       {{ name }}
     </h2>
@@ -35,5 +35,5 @@ useSeoMeta({
           : ''"
       />
     </section>
-  </div>
+  </main>
 </template>
