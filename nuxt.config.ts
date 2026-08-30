@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-29',
   devtools: { enabled: true },
-  ssr: false,
 
   app: {
     head: {
@@ -11,6 +10,17 @@ export default defineNuxtConfig({
         class: 'dark',
       },
     },
+  },
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/caso-estudio']
+    },
+    routeRules: {
+      '/img/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    }
   },
 
   content: {
