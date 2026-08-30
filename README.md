@@ -6,7 +6,7 @@
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 Este proyecto está construido con:
 
