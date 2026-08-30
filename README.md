@@ -76,3 +76,7 @@ Puedes usar [Iconify](https://icon-sets.iconify.design/)
 bun run generate
 ```
 > Esto creará una carpeta `.output/public` lista para ser subida de forma gratuita a plataformas como GitHub Pages, Netlify o Vercel.
+
+## License
+
+[MIT License](https://github.com/caramelriv/plantilla-portafolio-bootcamp-ciberseguridad/blob/master/LICENSE)
