@@ -20,14 +20,14 @@ Markdown te permite organizar la información usando diferentes niveles de títu
 ## Archivos Multimedia y Descargas
 
 ### Enlace de descarga
-[Nombre documento](/url-archivo){target="_blank" download}
+[Nombre documento](/hola-mundo.pdf){target="_blank" download}
 
 El archivo debe estar en la carpeta /public y la url del archivo debe ser "/ + nombre archivo"
 
 ### Insertar una Imagen
 Puedes incrustar fotografías, diseños o capturas de pantalla de esta manera:
 
-![Texto alternativo base](/foto.webp){width="600" height="300"}
+![Texto alternativo base](/foto.webp){width="600" height="300" loading="lazy"}
 
 
 Foto de [martin bennie](https://unsplash.com/es/@martinbennie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) en [Unsplash](https://unsplash.com/es/fotos/vista-aerea-del-lago-lomond-con-montanas-MhYU5K4A93I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
