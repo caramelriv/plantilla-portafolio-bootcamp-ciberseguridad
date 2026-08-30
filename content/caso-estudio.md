@@ -20,7 +20,7 @@ Markdown te permite organizar la información usando diferentes niveles de títu
 ## Archivos Multimedia y Descargas
 
 ### Enlace de descarga
-[Nombre documento](/hola-mundo.pdf){target="_blank" download}
+[Documento hola mundo](/hola-mundo.pdf){target="_blank" download="hola-mundo.pdf"}
 
 El archivo debe estar en la carpeta /public y la url del archivo debe ser "/ + nombre archivo"
 
