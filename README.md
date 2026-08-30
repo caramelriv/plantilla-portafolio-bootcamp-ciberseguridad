@@ -1,75 +1,65 @@
-# Nuxt Minimal Starter
+# Plantilla Portafolio - Bootcamp Ciberseguridad
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ Este es un sitio web estático optimizado para presentar tus proyectos, y casos de estudio.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🛠️ Stack Tecnológico
 
+Este proyecto está construido con:
+
+* **Nuxt 3**: Framework de Vue para aplicaciones.
+* **Vue 3**: Librería reactiva para la interfaz de usuario.
+* **Tailwind CSS**: Framework de estilos CSS.
+* **Tailwind Typography**: Plugin para dar un estilos automáticos al texto Markdown.
+* **Nuxt Content**: Módulo para gestionar archivos Markdown como base de datos local.
+* **@antfu/eslint-config**: Configuración estricta de ESLint para garantizar un código limpio y sin errores.
+* **Bun**: Entorno de ejecución y gestor de paquetes ultra rápido.
+
+---
+
+## Cómo personalizar tu información
+
+La plantilla está diseñada para que solo tengas que modificar dos archivos y una carpeta para tener tu portafolio listo:
+
+### 1. Datos Generales y Listado de Proyectos
+Para actualizar tu nombre, perfil, los proyectos de tu portafolio, edita el siguiente archivo:
+
+📂 Ruta: `app/constants/portafolio.ts`
+
+### 2. Contenido del Caso de Estudio (Markdown)
+Para documentar a fondo tu proyecto principal, las herramientas que usaste y aprendizajes, edita el archivo Markdown:
+
+📂 Ruta: `content/caso-estudio.md`
+
+### 3. Iconos Personalizados (SVG)
+Si las tecnologías o herramientas de tu proyecto necesitan iconos que no vienen por defecto los puedes agregar a la siguiente carpeta:
+
+📂 Ruta: `/icons`
+
+Los íconos deben ser .svg
+
+Puedes usar [Iconify](https://icon-sets.iconify.design/)
+
+---
+
+## Comandos de Desarrollo
+
+Asegúrate de tener instalado [Bun](https://bun.sh) en tu equipo, luego ejecuta los siguientes comandos en tu terminal:
+
+### 1. Instalar dependencias
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### 2. Levantar el servidor local de desarrollo
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
+> Abre tu navegador en [http://localhost:3000](http://localhost:3000) para ver tus cambios en tiempo real.
 
-## Production
-
-Build the application for production:
-
+### 3. Generar el sitio estático para producción
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+bun run generate
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+> Esto creará una carpeta `.output/public` lista para ser subida de forma gratuita a plataformas como GitHub Pages, Netlify o Vercel.
