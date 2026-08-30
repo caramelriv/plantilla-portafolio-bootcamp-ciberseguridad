@@ -32,18 +32,17 @@ La plantilla está diseñada para que solo tengas que modificar dos archivos y u
    git clone https://github.com/caramelriv/plantilla-portafolio-bootcamp-ciberseguridad.git
    ```
 
-### 2. Instalar dependencias
+### 2. Acceder al directorio del proyecto
+
+```bash
+cd plantilla-portafolio-bootcamp-ciberseguridad
+```
+
+### 3. Instalar dependencias
 Asegúrate de tener instalado [Bun](https://bun.sh) en tu equipo, luego ejecuta los siguientes comandos en tu terminal:
 
 ```bash
 bun install
-```
-
-### 3. Acceder al directorio del proyecto
-
-
-```bash
-cd plantilla-portafolio-bootcamp-ciberseguridad
 ```
 
 ### 4. Levantar el servidor local de desarrollo
