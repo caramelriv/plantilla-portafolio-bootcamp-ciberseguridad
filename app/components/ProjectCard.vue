@@ -22,7 +22,7 @@ defineProps<Props>()
     <div
       aria-hidden="true"
       :style="{ backgroundColor: project.color }"
-      class="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-40 transition-all ease duration-200"
+      class="absolute inset-0 w-full h-full opacity-30 group-hover:opacity-60 transition-all ease duration-200"
     />
     <!-- Content -->
     <article>

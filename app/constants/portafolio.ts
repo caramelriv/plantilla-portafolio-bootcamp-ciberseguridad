@@ -5,21 +5,21 @@ export const PORTFOLIO_DATA = {
   projects: [
     {
       title: 'Administración windows server',
-      url: '/#',
+      url: '/hola-mundo.pdf',
       icon: '/icons/windows.svg',
       iconAlt: 'Windows',
       color: '#0078D4',
     },
     {
       title: 'Administración ubuntu server',
-      url: '/#',
+      url: '/hola-mundo.pdf',
       icon: '/icons/ubuntu.svg',
       iconAlt: 'Ubuntu',
       color: '#E95420',
     },
     {
       title: 'Fundamentos hacking ético',
-      url: '/#',
+      url: '/hola-mundo.pdf',
       icon: '/icons/console.svg',
       iconAlt: 'Consola',
       color: '#000000',
