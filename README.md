@@ -6,7 +6,7 @@
  Este es un sitio web optimizado para presentar tus proyectos, y caso de estudio de ciberseguridad.
 
 
- [Demo](https://wonderful-lebkuchen-5fec60.netlify.app/)
+ [Demo del proyecto](https://wonderful-lebkuchen-5fec60.netlify.app/)
 
 ---
 
@@ -40,37 +40,40 @@ Asegúrate de tener instalado [Bun](https://bun.sh) en tu equipo, luego ejecuta 
 bun install
 ```
 
+## 3. Acceder al directorio del proyecto
 
-### 3. Levantar el servidor local de desarrollo
+
+```bash
+cd plantilla-portafolio-bootcamp-ciberseguridad
+```
+
+### 4. Levantar el servidor local de desarrollo
 ```bash
 bun run dev
 ```
 > Abre tu navegador en [http://localhost:3000](http://localhost:3000) para ver tus cambios en tiempo real.
 
-### 4. Personalizar datos generales y listado de proyectos
+### 5. Personalizar datos generales y listado de proyectos
 Para actualizar tu nombre, perfil, los proyectos de tu portafolio, edita el siguiente archivo:
 
-📂 Ruta: `app/constants/portafolio.ts`
+📂 Ruta: `/app/constants/portafolio.ts`
 
-### 5. Contenido del caso de estudio (Markdown)
+### 6. Contenido del caso de estudio (Markdown)
 Para documentar a fondo tu proyecto principal, las herramientas que usaste y aprendizajes, edita el archivo Markdown:
 
-📂 Ruta: `content/caso-estudio.md`
+📂 Ruta: `/content/caso-estudio.md`
 
-### 6. Iconos personalizados (SVG)
+### 7. Iconos personalizados (Opcional)
 Si las tecnologías o herramientas de tu proyecto necesitan iconos que no vienen por defecto los puedes agregar a la siguiente carpeta:
 
-📂 Ruta: `/icons`
+📂 Ruta: `/public/icons`
 
 Los íconos deben ser .svg
 
 Puedes usar [Iconify](https://icon-sets.iconify.design/)
 
-### 7. Generar el sitio estático para producción
+### 8. Generar el sitio estático para producción
 ```bash
 bun run generate
 ```
 > Esto creará una carpeta `.output/public` lista para ser subida de forma gratuita a plataformas como GitHub Pages, Netlify o Vercel.
-
-
----
