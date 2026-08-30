@@ -16,9 +16,8 @@ const links = [
   <div class="text-white bg-gray-900 min-h-screen flex flex-col">
     <nav class="border-b border-gray-600 px-4 flex justify-center gap-4">
       <Tab
-        v-for="link in links" :key="link.to"
-        class="hover:bg-gray-700"
-        :class="{ 'bg-gray-700': route.path === link.to }"
+        v-for="link in links"
+        :key="link.to"
         :to="link.to"
       >
         {{ link.name }}
