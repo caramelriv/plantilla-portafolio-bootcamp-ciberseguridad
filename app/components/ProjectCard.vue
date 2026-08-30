@@ -27,6 +27,7 @@ defineProps<Props>()
     <!-- Content -->
     <article>
       <img
+        v-if="project.icon"
         :src="project.icon"
         width="16px"
         height="16px"

@@ -1,9 +1,9 @@
 {
   "name": "plantilla-portafolio-bootcamp-ciberseguridad",
-  "version": "0.0.4",
-  "author": "Serggio Caramello (https://github.com/caramelriv)",
   "type": "module",
+  "version": "0.0.4",
   "private": true,
+  "author": "Serggio Caramello (https://github.com/caramelriv)",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
