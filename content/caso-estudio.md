@@ -28,6 +28,10 @@ El archivo debe estar en la carpeta /public y con el nombre archivo-ejemplo.pdf
 Puedes incrustar fotografías, diseños o capturas de pantalla de esta manera:
 
 ![Texto alternativo base](/foto.webp){width="600" height="300"}
+
+
+Foto de [martin bennie](https://unsplash.com/es/@martinbennie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) en [Unsplash](https://unsplash.com/es/fotos/vista-aerea-del-lago-lomond-con-montanas-MhYU5K4A93I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 ---
 
 ## Bloques de Código (Para Programadores)
